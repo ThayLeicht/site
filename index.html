@@ -14,7 +14,7 @@
         <nav>
             <! -- Menu de navegação - Seção de navegação do site -->
                 <ul>
-                    <! -- Lista n~]ao ordenada para links do menu -->
+                    <! -- Lista nao ordenada para links do menu -->
                         <li><a href="#sobre" target="_blank">Sobre mim</a></li>
                         <li><a href="#projetos" target="_blank">Projetos</a></li>
                         <li><a href="#contato" target="_blank">Contatos</a></li>
@@ -24,7 +24,8 @@
 
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <img src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png" alt="ícone ilustrativo de uma mulher" title="imagem de perfil Thayna">
+        <img src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png" alt="ícone ilustrativo de uma mulher"
+            title="imagem de perfil Thayna">
         <article>
             <p>Olá me chamo Thayná e este é um resumo sobre mim, estudo de github</p>
 
@@ -56,6 +57,39 @@
         </article>
     </section>
 
+    <section id="habilidades">
+        <h2>Habilidades e tecnologias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Estilização de páginas web</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Iniciante</td>
+                    <td>Programação para interatividade em páginas web</td>
+                </tr>
+
+        </table>
+
+    </section>
+
     <footer>
         <p>© 2026 Thayná Leicht. Todos os direitos reservados.</p>
 
@@ -64,6 +98,32 @@
 
             <p>Tem um projeto em mente? Entre em contato comigo!</p>
 
+            <form action="">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvidas</option>
+                    <option value="outros">Outros</option>
+                </select><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+                <input type="checkbox" id="inscricao" name="inscricao" value="Enviar">
+                <label for="inscricao"> Deseja receber minhas novidades?</label><br>
+
+                <input type="submit" value="Enviar mensagem"><br>
+
+            </form>
+            <br>
             <address>
                 Email: <a href="mailto:thaykokoro@gmail.com">thaykokoro@gmail.com</a><br>
                 Telefone: <a href="tel:+5547999999999">+55 (47) 9 9999-9999</a>
